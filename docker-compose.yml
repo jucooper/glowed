@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  api:
+    build: ./api
+    environment:
+      - GO_ENV=development
+      - XUID
+      - XUID_PLATFORM
+      - RLS_API_KEY
+    ports:
+      - 5000:5000
+  web:
+    build: ./web
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3000:3000
