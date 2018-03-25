@@ -12,4 +12,4 @@ PLATFORM=3
 # Rocket League Stats API Key
 RLS_API_KEY=
 ```
-3. If you have docker run `docker-compose -d --build`, otherwise you can run manually.
+3. If you have docker run `docker-compose up -d --build `, otherwise you can run manually.
