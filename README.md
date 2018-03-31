@@ -1,7 +1,7 @@
 # Glowed
 A Dockerized Golang/React web app that will display your Rocket League stats in a 'trophy room' way.
 
-Data provied by [RocketLeagueStats](https://rocketleaguestats.com/).
+Data provided by [RocketLeagueStats](https://rocketleaguestats.com/).
 
 ## Local Development
 ### Configure
