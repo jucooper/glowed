@@ -3,15 +3,17 @@ A Dockerized Golang/React web app that will display your Rocket League stats in 
 
 Data provied by [RocketLeagueStats](https://rocketleaguestats.com/).
 
-# Usage
-1. Obtain your own API Key
-2. Set the following:
+## Local Development
+### Configure
+1. Obtain your own [API Key](https://developers.rocketleaguestats.com/).
+2. Set the following in your `.env`:
 ```
 # Steam 64 ID / PSN Username / Xbox GamerTag or XUID
-PROFILE=
-# PC, PS, Xbox
-PLATFORM=
+PROFILE=GamerTag
+# 1 - PC, 2- PS, 3 - Xbox
+PLATFORM=3
 # Rocket League Stats
 RLS_API_KEY=
 ```
-3. Run `docker-compose -d --build`
+### Run
+1. `$ docker-compose -d --build`.
