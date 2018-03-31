@@ -1,5 +1,7 @@
 # Glowed
-A small web app that displays your Rocket League stats in a 'trophy room' way.
+A Dockerized Golang/React web app that will display your Rocket League stats in a 'trophy room' way.
+
+Data provied by [RocketLeagueStats](https://rocketleaguestats.com/).
 
 # Usage
 1. Obtain your own API Key
@@ -7,9 +9,9 @@ A small web app that displays your Rocket League stats in a 'trophy room' way.
 ```
 # Steam 64 ID / PSN Username / Xbox GamerTag or XUID
 PROFILE=
-# 1 for PC, 2 for PS, 3 for Xbox
-PLATFORM=3
-# Rocket League Stats API Key
+# PC, PS, Xbox
+PLATFORM=
+# Rocket League Stats
 RLS_API_KEY=
 ```
-3. If you have docker run `docker-compose up -d --build `, otherwise you can run manually.
+3. Run `docker-compose -d --build`
