@@ -1,6 +1,6 @@
 FROM golang:1.9.2
 
-WORKDIR /go/src/github.com/justinwcooper/glowed/api
+WORKDIR /go/src/github.com/justinwcooper/go-react/api
 COPY . .
 
 RUN go install ./vendor/github.com/ddollar/init

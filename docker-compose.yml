@@ -5,9 +5,6 @@ services:
     build: ./api
     environment:
       - GO_ENV=development
-      - PROFILE
-      - PLATFORM
-      - RLS_API_KEY
     ports:
       - 5000:5000
   web:

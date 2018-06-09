@@ -26,7 +26,7 @@ class App extends Component {
           <div>
             {
               this.state.player != null
-              ? 
+              ?
               <div>
                 <p>{this.state.player.displayName}</p>
                 <p>{this.state.player.stats.wins}</p>
@@ -39,10 +39,6 @@ class App extends Component {
                 <p className="loader"></p>
               </div>
             }
-            <div>
-              <p>All content about Rocket League belongs to Psyonix, Inc.</p>
-              <a href="https://rocketleaguestats.com/"><img src="./rls_partner_horizontal_small.png" alt="img"></img></a>
-            </div>
           </div>
         </div>
       </div>
